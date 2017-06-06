@@ -9,13 +9,17 @@ var queryURL = giphyUrl + searchTerm + apiKey;
  // 1. create the onclick function that queries the API with the button value as the searchTerm, and then display the gif results in the #gif-results <div> of the html.
 
  $(".btn").on("click", function() {
- 	searchTerm = $(this.value)
+ 	searchTerm = $(this).attr("value");
 
  	$.ajax({
 	url: queryURL,
      method: 'GET'
   }).done(function(response) {
-     console.log(response);
+     console.log(searchTerm);
+
+  // $("#gif-results").html();
+    
+
   	});
 
 
