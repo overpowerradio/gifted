@@ -1,0 +1,45 @@
+body {
+
+	margin: 0;
+	padding: 0;
+	border: 0;
+	
+	}
+
+header {
+			text-align: center;
+			padding: 20px;
+	}
+		
+.img-headers {
+			height: 150px;
+			width: auto;
+	}
+		
+#emotions {
+			padding-top: 0;
+			width: 75%;
+			margin: auto;
+			letter-spacing: 10px;
+			line-height: 35px;
+			padding-left: 0;
+			padding-right: 0;
+			text-align: center;
+	}
+
+.buttonDown {
+
+	background-color: black;
+}
+
+h1 {
+			font-weight: bold;
+			font-size: 28px;
+			text-align: center;
+	}
+
+.form-group {
+			width: 350px;
+			float: right;
+			padding-right: 50px;
+	}
