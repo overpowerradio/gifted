@@ -14,11 +14,13 @@
 
  	var searchTerm = $(this).attr("value");
 	var apiKey = "&api_key=dc6zaTOxFJmzC";
-	var clear = "";
+
 	var queryURL = giphyUrl + searchTerm + apiKey;	
 
 		console.log(searchTerm);
- 	$("#gif-results").html(clear);
+ 	
+ 	$("#gif-results").empty();
+ 	
  	$.ajax({
 	url: queryURL,
     method: 'GET'
