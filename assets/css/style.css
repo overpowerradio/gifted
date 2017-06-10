@@ -9,7 +9,9 @@ body {
 header {
 			text-align: center;
 			padding: 20px;
-	}
+			background-image: url(../images/blackPaisley.jpg);
+			height: 185px;
+}
 		
 .img-headers {
 			height: 150px;
@@ -31,6 +33,31 @@ header {
 
 	background-color: black;
 }
+.vertText {
+
+	position: relative;
+}
+.social {
+	height: 50px;
+	width: auto;
+	margin-right: 2px;
+}
+
+.social-center {
+	text-align: center;
+}
+
+.suggestions {
+
+	font-size: 12px;
+	font-style: italic;
+	font-weight: normal;
+}
+
+.yourSmile {
+
+	background-color: #28a219;
+}
 
 h1 {
 			font-weight: bold;
@@ -44,18 +71,21 @@ h1 {
 			margin: auto;
 	}
 
-#gif-results {
+.gif-results {
 	clear: both;
 	width: 75%;
 	margin: auto;
-	line-height: 170px;
+	line-height: 200px;
 	margin-top: 20px;
+	text-align: center;
+
 
 }
 .resize {
 
-	height: 150px;
-	width: auto;
+	height: 175px;
+	max-width: 250px;
 	padding-right: 10px;
-	
+	border: 15px; /*why is this not showing*/
+	border-color: #ffffff; /*why is this not showing*/
 }
