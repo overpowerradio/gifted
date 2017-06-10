@@ -33,18 +33,14 @@ header {
 
 	background-color: black;
 }
-.vertText {
 
-	position: relative;
+.social-center {
+	text-align: center;
 }
 .social {
 	height: 50px;
 	width: auto;
 	margin-right: 2px;
-}
-
-.social-center {
-	text-align: center;
 }
 
 .suggestions {
